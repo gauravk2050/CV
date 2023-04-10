@@ -1,4 +1,3 @@
-/* ###############################Tags Sections############################### */
 body{
     margin: 0;
 }
@@ -8,24 +7,7 @@ h1{
 }
 
 div {
-    background-color:rgb(153, 237, 228);
+    /* background-color:rgb(153, 237, 228); */
     padding: 10px;
-    
-}
-
-/* ###############################Class Sections############################### */
-
-.top_container{
-    background-color: aquamarine;
-    border: solid 2px;
-}
-
-.middle_container{
-    background-color: antiquewhite;
-   
-}
-
-.bottom_container{
-    background-color: blueviolet;
     
 }
