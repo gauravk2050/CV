@@ -1,0 +1,36 @@
+
+/* making groups using comma ',' */
+h1, h2{
+    color: blueviolet;
+}
+
+/* selecting child */
+/* parant > child {
+    body....child should be direct child of the parent (i.e direct descendent)
+}*/
+
+/* using > symbol....this shows parent and child relation  */
+.box > p {
+    color: firebrick;
+}
+
+/* using single space  */
+/* descendent selector  */
+.box li{
+    color: blue;
+
+}
+
+/* cahining selector  ---> apply where all the selectoer are true*/
+/* all the selectoer should be present  */
+/* their should not be any space between chain selector  */
+li.done{
+    color: seagreen;
+}
+
+/* using ansister and chaining together */
+ul p.done{
+    font-size: 15px;
+    color: firebrick;
+}
+
