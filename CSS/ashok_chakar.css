@@ -1,0 +1,42 @@
+.ashok-chakra {
+    background: white;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    box-shadow: 0 0 0 4px #138808;
+}
+
+.ashok-chakra:before,
+.ashok-chakra:after {
+    content: "";
+    position: absolute;
+    background: #138808;
+}
+
+.ashok-chakra:before {
+    width: 4px;
+    height: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ashok-chakra:after {
+    width: 18px;
+    height: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ashok-chakra:before {
+    transform: rotate(15deg);
+}
+
+.ashok-chakra:after {
+    transform: rotate(-15deg);
+}
